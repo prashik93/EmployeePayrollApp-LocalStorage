@@ -16,9 +16,9 @@ class EmployeePayrollData {
         this._profilePic = profilePic;
     }
 
-    get gender() { return  this_gender; }
+    get gender() { return  this._gender; }
     set gender(gender) {
-        this.this_gender = gender;
+        this._gender = gender;
     }
 
     get department() { return this._department; }
@@ -38,7 +38,7 @@ class EmployeePayrollData {
 
     get startDate() { return this._startDate; }
     set startDate(startDate) {
-        this.startDate = startDate;
+        this._startDate = startDate;
     }
 
     toString() {
